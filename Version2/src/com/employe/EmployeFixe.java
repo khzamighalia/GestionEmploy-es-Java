@@ -15,7 +15,7 @@ public class EmployeFixe extends Employe {
 	}
 
 	@Override
-	public void affichierEmployer() {
+	public void afficherEmployer() {
 		System.out.println(toString());
 	}
 }
