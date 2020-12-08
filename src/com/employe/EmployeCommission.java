@@ -1,10 +1,10 @@
 package com.employe;
 
 public class EmployeCommission extends Employe {
-	private double salaire;
-	private int ventes, commission;
+	private double salaire, ventes;
+	private int commission;
 
-	public EmployeCommission(String nom, String prenom, double salaire, int ventes, int commission) {
+	public EmployeCommission(String nom, String prenom, double salaire, double ventes, int commission) {
 		super(nom, prenom);
 		this.salaire = salaire;
 		this.ventes = ventes;
@@ -16,6 +16,6 @@ public class EmployeCommission extends Employe {
 	}
 	
 	public String toString() {
-		return super.toString() + ", Salaire : " + calculSalaire() + " Dhs ";
+		return super.toString() + " Salaire =" + calculSalaire() + " Dhs ";
 	}
 }

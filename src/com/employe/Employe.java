@@ -23,7 +23,7 @@ public class Employe {
 	}
 
 	public String toString() {
-		return " Nom=" + nom + ", prenom=" + prenom + " ";
+		return " Nom=" + nom + ", prenom=" + prenom + ",";
 	}
 
 

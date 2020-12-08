@@ -3,8 +3,11 @@ package com.employe;
 public class TextEmploye {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		EmployeFixe employeFixe = new EmployeFixe("nom1", "prenom1", 5000);
+		EmployeCommission employeCommission =new EmployeCommission("nom2", "prenom2", 4000, 24000, 10);
+		
+		System.out.println(employeFixe.toString());
+		System.out.println(employeCommission.toString());
 	}
 
 }
