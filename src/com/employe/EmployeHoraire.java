@@ -12,7 +12,7 @@ public class EmployeHoraire extends Employe {
 
 	@Override
 	public String toString() {
-		return super.toString()+ " Salaire : "+calculSalaire()+ " Dhs ";
+		return super.toString()+ " Salaire ="+calculSalaire()+ " Dhs ";
 	}
 
 
