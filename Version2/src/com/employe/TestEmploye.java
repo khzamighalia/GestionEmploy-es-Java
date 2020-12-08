@@ -7,9 +7,9 @@ public class TestEmploye {
 		EmployeCommission employeCommission =new EmployeCommission("nom2", "prenom2", 4000, 24000, 10);
 		EmployeHoraire employeHoraire = new EmployeHoraire("nom3", "prenom3", 30, 150);
 		
-		employeFixe.affichierEmployer();
-		employeCommission.affichierEmployer();
-		employeHoraire.affichierEmployer();
+		employeFixe.afficherEmployer();
+		employeCommission.afficherEmployer();
+		employeHoraire.afficherEmployer();
 	}
 
 }
