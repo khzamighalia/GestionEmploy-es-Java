@@ -16,6 +16,6 @@ public class EmployeCommission extends Employe {
 	}
 	
 	public String toString() {
-		return super.toString() + ", Salaire total : " + calculSalaire();
+		return super.toString() + ", Salaire : " + calculSalaire() + " Dhs ";
 	}
 }
