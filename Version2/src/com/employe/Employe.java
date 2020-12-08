@@ -26,6 +26,6 @@ public abstract class Employe {
 		return " Nom=" + nom + ", prenom=" + prenom + ",";
 	}
 
-	public abstract void affichierEmployer();
+	public abstract void afficherEmployer();
 
 }
