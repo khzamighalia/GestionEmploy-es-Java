@@ -1,6 +1,6 @@
 package com.employe;
 
-public class EmployeFixe {
+public class EmployeFixe extends Employe {
 
   private Double Salaire;
 
