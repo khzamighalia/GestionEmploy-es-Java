@@ -20,7 +20,7 @@ public class EmployeCommission extends Employe {
 	}
 
 	@Override
-	public void affichierEmployer() {
+	public void afficherEmployer() {
 		System.out.println(toString());
 	}
 }
