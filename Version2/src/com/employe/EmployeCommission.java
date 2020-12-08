@@ -18,4 +18,9 @@ public class EmployeCommission extends Employe {
 	public String toString() {
 		return super.toString() + " Salaire =" + calculSalaire() + " Dhs ";
 	}
+
+	@Override
+	public void affichierEmployer() {
+		System.out.println(toString());
+	}
 }

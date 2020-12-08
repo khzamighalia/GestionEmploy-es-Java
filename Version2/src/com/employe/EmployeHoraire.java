@@ -20,5 +20,9 @@ public class EmployeHoraire extends Employe {
 		return taux_horaire*heures;
 	}
 
+	@Override
+	public void affichierEmployer() {
+		System.out.println(toString());
+	}
 
 }

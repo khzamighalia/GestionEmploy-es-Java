@@ -1,6 +1,6 @@
 package com.employe;
 
-public class Employe {
+public abstract class Employe {
 
   private String nom;
 	private String prenom;
@@ -26,5 +26,6 @@ public class Employe {
 		return " Nom=" + nom + ", prenom=" + prenom + ",";
 	}
 
+	public abstract void affichierEmployer();
 
 }

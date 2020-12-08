@@ -13,4 +13,9 @@ public class EmployeFixe extends Employe {
 	public String toString() {
 		return super.toString()+" Salaire =" + Salaire + " Dhs ";
 	}
+
+	@Override
+	public void affichierEmployer() {
+		System.out.println(toString());
+	}
 }
